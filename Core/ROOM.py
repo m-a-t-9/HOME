@@ -42,7 +42,7 @@ class ROOM:
 			self.__startMonitoring()
 
 	def __getDataAboutRoom(self):
-		self.__module.sendCommand("GET_TEMPERATURE")
+		self.__setTemperature( self.__module.sendCommand("GET_TEMPERATURE"))
 		
 	def setupTemperature(self, value):
 		'''
