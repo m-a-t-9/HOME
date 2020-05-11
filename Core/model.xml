@@ -15,4 +15,5 @@
 		<MODULE ip="127.0.0.1" />
 	</ROOM>
 	-->
+	<DOOR state="LOCKED"/>
 </HOME>
