@@ -37,6 +37,7 @@ class HOME:
 			elif prop == "type":
 				self.__type = object.attrib[prop]
 		self.__loadRooms(object)
+		self.__initializeDoors(object.find("DOOR"))
 		self.lg.info("__initialize: HOME is CONFIGURED")
 
 	def __loadRooms(self, object):
