@@ -1,0 +1,18 @@
+<HOME name="MM" address="Nadolice Wielkie" owner="MM" type="HOUSE">
+	<ROOM name="LivingRoom" expectedTemp="21">
+		<WINDOW id="1">
+			<BLIND />
+		</WINDOW>
+		<HEATER defaultTemp="21"/>
+		<MODULE ip="127.0.0.1" />
+	</ROOM>
+	<!--
+	<ROOM name="Kitchen" expectedTemp="20">
+		<WINDOW id="1">
+			<BLIND />
+		</WINDOW>
+		<HEATER defaultTemp="20" />
+		<MODULE ip="127.0.0.1" />
+	</ROOM>
+	-->
+</HOME>

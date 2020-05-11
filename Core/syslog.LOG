@@ -1,0 +1,81 @@
+********************************************************************
+05/08/2020, 14:12:39 | INFO | ROOT | SYSTEM STARTED
+05/08/2020, 14:12:39 | INFO | Models | __loadModel: Model parsed
+05/08/2020, 14:12:39 | INFO | ROOM [LivingRoom] | BLIND | Created
+05/08/2020, 14:12:39 | INFO | ROOM [LivingRoom] | WINDOW [1] | __initialize: Configuration DONE
+05/08/2020, 14:12:39 | INFO | ROOM [LivingRoom] | HEATER | Created
+05/08/2020, 14:12:39 | INFO | MODULE [127.0.0.1] | Starting module receiver daemon
+05/08/2020, 14:12:39 | INFO | MODULE [127.0.0.1] | Trying to connect to module
+05/08/2020, 14:12:39 | INFO | MODULE [127.0.0.1] | State has been changed to value: CONNECTED
+********************************************************************
+05/08/2020, 14:13:14 | INFO | ROOT | SYSTEM STARTED
+05/08/2020, 14:13:14 | INFO | Models | __loadModel: Model parsed
+05/08/2020, 14:13:14 | INFO | ROOM [LivingRoom] | BLIND | Created
+05/08/2020, 14:13:14 | INFO | ROOM [LivingRoom] | WINDOW [1] | __initialize: Configuration DONE
+05/08/2020, 14:13:14 | INFO | ROOM [LivingRoom] | HEATER | Created
+05/08/2020, 14:13:14 | INFO | MODULE [127.0.0.1] | Starting module receiver daemon
+05/08/2020, 14:13:14 | INFO | MODULE [127.0.0.1] | Trying to connect to module
+05/08/2020, 14:13:14 | INFO | MODULE [127.0.0.1] | State has been changed to value: CONNECTED
+********************************************************************
+05/08/2020, 14:15:47 | INFO | ROOT | SYSTEM STARTED
+05/08/2020, 14:15:47 | INFO | Models | __loadModel: Model parsed
+05/08/2020, 14:15:47 | INFO | ROOM [LivingRoom] | BLIND | Created
+05/08/2020, 14:15:47 | INFO | ROOM [LivingRoom] | WINDOW [1] | __initialize: Configuration DONE
+05/08/2020, 14:15:47 | INFO | ROOM [LivingRoom] | HEATER | Created
+05/08/2020, 14:15:47 | INFO | MODULE [127.0.0.1] | Trying to connect to module
+05/08/2020, 14:15:47 | INFO | MODULE [127.0.0.1] | State has been changed to value: CONNECTED
+********************************************************************
+05/08/2020, 14:17:37 | INFO | ROOT | SYSTEM STARTED
+05/08/2020, 14:17:37 | INFO | Models | __loadModel: Model parsed
+05/08/2020, 14:17:37 | INFO | ROOM [LivingRoom] | BLIND | Created
+05/08/2020, 14:17:37 | INFO | ROOM [LivingRoom] | WINDOW [1] | __initialize: Configuration DONE
+05/08/2020, 14:17:37 | INFO | ROOM [LivingRoom] | HEATER | Created
+05/08/2020, 14:17:37 | INFO | MODULE [127.0.0.1] | Trying to connect to module
+05/08/2020, 14:17:37 | INFO | MODULE [127.0.0.1] | State has been changed to value: CONNECTED
+05/08/2020, 14:17:37 | INFO | ROOM [LivingRoom] | Room is connected to network
+********************************************************************
+05/08/2020, 14:19:10 | INFO | ROOT | SYSTEM STARTED
+05/08/2020, 14:19:10 | INFO | Models | __loadModel: Model parsed
+05/08/2020, 14:19:10 | INFO | ROOM [LivingRoom] | BLIND | Created
+05/08/2020, 14:19:10 | INFO | ROOM [LivingRoom] | WINDOW [1] | __initialize: Configuration DONE
+05/08/2020, 14:19:10 | INFO | ROOM [LivingRoom] | HEATER | Created
+05/08/2020, 14:19:10 | INFO | MODULE [127.0.0.1] | Trying to connect to module
+05/08/2020, 14:19:10 | INFO | MODULE [127.0.0.1] | State has been changed to value: CONNECTED
+05/08/2020, 14:19:10 | INFO | ROOM [LivingRoom] | Room is connected to network
+********************************************************************
+05/08/2020, 14:22:10 | INFO | ROOT | SYSTEM STARTED
+05/08/2020, 14:22:10 | INFO | Models | __loadModel: Model parsed
+05/08/2020, 14:22:10 | INFO | ROOM [LivingRoom] | BLIND | Created
+05/08/2020, 14:22:10 | INFO | ROOM [LivingRoom] | WINDOW [1] | __initialize: Configuration DONE
+05/08/2020, 14:22:10 | INFO | ROOM [LivingRoom] | HEATER | Created
+05/08/2020, 14:22:10 | INFO | MODULE [127.0.0.1] | Trying to connect to module
+05/08/2020, 14:22:10 | INFO | MODULE [127.0.0.1] | State has been changed to value: CONNECTED
+05/08/2020, 14:22:10 | INFO | ROOM [LivingRoom] | Room is connected to network
+05/08/2020, 14:22:10 | INFO | MODULE [127.0.0.1] | sendCommand performed successfully. Waiting for response
+05/08/2020, 14:22:10 | INFO | MODULE [127.0.0.1] | sendCommand performed successfully. Waiting for response
+05/08/2020, 14:22:10 | INFO | ROOM [LivingRoom] | __initialize: Configuration DONE
+05/08/2020, 14:22:10 | INFO | HOME | __initialize: HOME is CONFIGURED
+05/08/2020, 14:22:11 | INFO | MODULE [127.0.0.1] | sendCommand performed successfully. Waiting for response
+05/08/2020, 14:22:12 | INFO | MODULE [127.0.0.1] | sendCommand performed successfully. Waiting for response
+05/08/2020, 14:22:13 | INFO | MODULE [127.0.0.1] | sendCommand performed successfully. Waiting for response
+05/08/2020, 14:22:14 | INFO | MODULE [127.0.0.1] | sendCommand performed successfully. Waiting for response
+05/08/2020, 14:22:15 | INFO | MODULE [127.0.0.1] | sendCommand performed successfully. Waiting for response
+05/08/2020, 14:22:16 | INFO | MODULE [127.0.0.1] | sendCommand performed successfully. Waiting for response
+05/08/2020, 14:22:17 | INFO | MODULE [127.0.0.1] | sendCommand performed successfully. Waiting for response
+05/08/2020, 14:22:18 | INFO | MODULE [127.0.0.1] | sendCommand performed successfully. Waiting for response
+********************************************************************
+05/08/2020, 14:25:42 | INFO | ROOT | SYSTEM STARTED
+05/08/2020, 14:25:42 | INFO | Models | __loadModel: Model parsed
+05/08/2020, 14:25:42 | INFO | ROOM [LivingRoom] | BLIND | Created
+05/08/2020, 14:25:42 | INFO | ROOM [LivingRoom] | WINDOW [1] | __initialize: Configuration DONE
+05/08/2020, 14:25:42 | INFO | ROOM [LivingRoom] | HEATER | Created
+05/08/2020, 14:25:42 | INFO | MODULE [127.0.0.1] | Trying to connect to module
+05/08/2020, 14:25:42 | INFO | MODULE [127.0.0.1] | State has been changed to value: CONNECTED
+05/08/2020, 14:25:42 | INFO | ROOM [LivingRoom] | Room is connected to network
+05/08/2020, 14:25:42 | INFO | MODULE [127.0.0.1] | sendCommand performed successfully. Waiting for response
+05/08/2020, 14:25:42 | INFO | ROOM [LivingRoom] | __initialize: Configuration DONE
+05/08/2020, 14:25:42 | INFO | MODULE [127.0.0.1] | sendCommand performed successfully. Waiting for response
+05/08/2020, 14:25:42 | INFO | HOME | __initialize: HOME is CONFIGURED
+05/08/2020, 14:25:42 | INFO | ROOM [LivingRoom] |  current temperature in room is: 22.0
+05/08/2020, 14:26:42 | INFO | MODULE [127.0.0.1] | sendCommand performed successfully. Waiting for response
+05/08/2020, 14:26:42 | INFO | ROOM [LivingRoom] |  current temperature in room is: 22.0
