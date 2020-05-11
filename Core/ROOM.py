@@ -62,6 +62,7 @@ class ROOM:
 
 
 	def __observeTemperature(self):
+	  self.lg.info("Temperature monitor started")
 		while True:
 			self.__setTemperature(self.__module.sendCommand("GET_TEMPERATURE"))
 			time.sleep(60)
