@@ -1,6 +1,6 @@
-from HOME import *
+from .HOME import *
 import xml.etree.ElementTree as ET
-from Logger import *
+from .Logger import *
 
 class Model:
 
@@ -9,11 +9,8 @@ class Model:
 
 	def __init__(self):
 		self.lg = Logger("syslog.LOG", "Models")
-
 		self.__loadModel()
 		self.__home = HOME(self.lg, self.__root)
-		
-		
 
 	def __loadModel(self):
 		try:

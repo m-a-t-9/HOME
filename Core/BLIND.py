@@ -1,4 +1,4 @@
-from Logger import *
+from .Logger import *
 STATES = {"OPENED": 1, "CLOSED": 2}
 
 class BLIND:

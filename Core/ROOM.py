@@ -1,9 +1,9 @@
 import threading
 
-from Logger import *
-from WINDOW import *
-from HEATER import *
-from MODULE import *
+from .Logger import *
+from .WINDOW import *
+from .HEATER import *
+from .MODULE import *
 class ROOM:
 
 	__name = ''
@@ -62,7 +62,7 @@ class ROOM:
 
 
 	def __observeTemperature(self):
-	  self.lg.info("Temperature monitor started")
+		self.lg.info("Temperature monitor started")
 		while True:
 			self.__setTemperature(self.__module.sendCommand("GET_TEMPERATURE"))
 			time.sleep(60)

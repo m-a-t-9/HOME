@@ -1,5 +1,5 @@
-from Logger import *
-from BLIND import *
+from .Logger import *
+from .BLIND import *
 class WINDOW:
 	
 	__id = None

@@ -1,4 +1,4 @@
-from Logger import *
+from .Logger import *
 import socket
 import threading
 import time

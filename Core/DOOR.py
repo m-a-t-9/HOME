@@ -1,4 +1,4 @@
-from Logger import *
+from .Logger import *
 
 STATES = {"UNLOCKED": 0, "LOCKED": 1}
 AUTH_WAY = {0:"PIN", 1:"FINGERPRINT"}
