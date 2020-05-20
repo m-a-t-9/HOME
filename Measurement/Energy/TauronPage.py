@@ -2,6 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 from EnergyCountersPage import *
+import time
 
 class TauronPage:
 
@@ -30,8 +31,11 @@ class TauronPage:
 		loginButton.click()
 
 	def connectToEnergyCounters(self):
-		buttonToConnect = self.driver.find_element(By.CSS_SELECTOR, self.properties[3].split(" ")[1].replace("\n", ""))
-		buttonToConnect.click()
+		if self.driver.title.find("eLicznik") != -1:
+			print("Nothing to be done")
+		else:
+			buttonToConnect = self.driver.find_element(By.CSS_SELECTOR, self.properties[3].split(" ")[1].replace("\n", ""))
+			buttonToConnect.click()
 		self.energyCounterPage = EnergyCountersPage(self.driver)
 
 	def getProducedEnergyAmount(self):
@@ -42,6 +46,9 @@ class TauronPage:
 
 	def getProducedEnergyAmountInYear(self):
 		return self.energyCounterPage.getOZEValueForYear()
+
+	def getAverageDailyConsumption(self):
+		return self.energyCounterPage.getDailyAverageValue()
 
 	def teardown(self):
 		self.driver.close()
