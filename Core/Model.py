@@ -8,7 +8,7 @@ class Model:
 	__root = None	
 
 	def __init__(self):
-		self.lg = Logger("syslog.LOG", "Models")
+		self.lg = Logger("syslog.LOG", "Model")
 		self.__loadModel()
 		self.__home = HOME(self.lg, self.__root)
 
@@ -19,3 +19,12 @@ class Model:
 			self.lg.info("__loadModel: Model parsed")
 		except:
 			self.lg.error("__loadModel: Cannot parse model")
+
+	def getHome(self):
+		return self.__home
+
+	def interface(self, message):
+		pass
+
+	def getModelHandler(self):
+		return self.interface

@@ -1,6 +1,6 @@
 from Communication import Voice
 from Core import *
-
+from Scheduller import *
 
 
 
@@ -11,6 +11,7 @@ def main():
 	voiceService.say("System został zresetowany poprawnie")
 	lg.info("SYSTEM STARTED")
 	model = Model.Model()
+	scheduller = Scheduller.Scheduller(model.getModelHandler())
 	voiceService.startListening()
 	while True:
 		pass

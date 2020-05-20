@@ -1,5 +1,6 @@
 from .Logger import *
 from .ROOM import *
+from .MEASUREMENT import *
 
 STATES = ["", "UNCONFIGURED", "CONFIGURED"]
 
@@ -10,6 +11,7 @@ class HOME:
 	__owner = ""
 	__type = 0
 	__state = STATES[0]
+	__MEASUREMENT = None
 
 	def __init__(self, logger, object):
 		self.__rooms = []
@@ -38,9 +40,13 @@ class HOME:
 				self.__type = object.attrib[prop]
 		self.__loadRooms(object)
 		#self.__initializeDoors(object.find("DOOR"))
+		self.__startMeasurement()
 		self.lg.info("__initialize: HOME is CONFIGURED")
 
 	def __loadRooms(self, object):
 		for child in object:
 			if child.tag == "ROOM":
 				self.addRoom(ROOM(child))
+
+	def __startMeasurement(self):
+		self.__MEASUREMENT = MEASUREMENT()
