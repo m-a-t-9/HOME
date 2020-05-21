@@ -1,12 +1,16 @@
 from TauronPage import *
 
 tauronPage = TauronPage()
-tauronPage.login()s
+tauronPage.login()
 tauronPage.connectToEnergyCounters()
 
-print("Produced: " + tauronPage.getProducedEnergyAmount())
-print("Consumed: " + tauronPage.getConsumedEnergyAmount())
-print("Produced in this year: " + tauronPage.getProducedEnergyAmountInYear())
-print("Average daily consumption: "+ tauronPage.getAverageDailyConsumption())
+produced = tauronPage.getProducedEnergyAmount()
+consumed = tauronPage.getConsumedEnergyAmount()
+averageDailyConsumed =  tauronPage.getAverageDailyConsumption()
 
-#tauronPage.teardown()
+print('[{"produced":"' + str(produced) + '","consumed":"' + str(consumed) + '","averageDailyConsumption":"'+ str(averageDailyConsumed)+ '"}]')
+#print("Consumed: " + )
+#print("Produced in this year: " + tauronPage.getProducedEnergyAmountInYear())
+#print("Average daily consumption: "+)
+
+tauronPage.teardown()

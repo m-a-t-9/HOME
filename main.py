@@ -8,11 +8,14 @@ def main():
 	lg = Logger.Logger("syslog.LOG", "ROOT")
 	lg.start()
 	voiceService = Voice.Voice()
+	voiceService.disable()
 	voiceService.say("System został zresetowany poprawnie")
 	lg.info("SYSTEM STARTED")
-	model = Model.Model()
-	scheduller = Scheduller.Scheduller(model.getModelHandler())
+	scheduleService = Scheduller.Scheduller()
+	model = Model.Model(voiceService.getSayHandler(), scheduleService.getInterface())	
+	scheduleService.runTriggers()
 	voiceService.startListening()
+	
 	while True:
 		pass
 

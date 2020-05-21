@@ -1,0 +1,58 @@
+********************************************************************
+05/21/2020, 21:37:32 | INFO | ROOT | SYSTEM STARTED
+05/21/2020, 21:37:32 | INFO | Scheduller | Scheduller: __init__
+05/21/2020, 21:37:32 | INFO | Model | __loadModel: Model parsed
+05/21/2020, 21:37:32 | INFO | ROOM [LivingRoom] | BLIND | Created
+05/21/2020, 21:37:32 | INFO | ROOM [LivingRoom] | WINDOW [1] | __initialize: Configuration DONE
+05/21/2020, 21:37:32 | INFO | ROOM [LivingRoom] | HEATER | Created
+05/21/2020, 21:37:32 | INFO | MODULE [127.0.0.1] | Trying to connect to module
+05/21/2020, 21:37:32 | INFO | MODULE [127.0.0.1] | State has been changed to value: CONNECTED
+05/21/2020, 21:37:32 | INFO | ROOM [LivingRoom] | Room is connected to network
+05/21/2020, 21:37:32 | INFO | MODULE [127.0.0.1] | sendCommand performed successfully. Waiting for response
+05/21/2020, 21:37:32 | INFO | ROOM [LivingRoom] |  current temperature in room is: 22.0
+05/21/2020, 21:37:32 | INFO | ROOM [LivingRoom] | Temperature monitor started
+05/21/2020, 21:37:32 | INFO | ROOM [LivingRoom] | __initialize: Configuration DONE
+05/21/2020, 21:37:32 | INFO | MODULE [127.0.0.1] | sendCommand performed successfully. Waiting for response
+05/21/2020, 21:37:32 | INFO | ROOM [LivingRoom] |  current temperature in room is: 22.0
+********************************************************************
+05/21/2020, 21:37:54 | INFO | ROOT | SYSTEM STARTED
+05/21/2020, 21:37:54 | INFO | Scheduller | Scheduller: __init__
+05/21/2020, 21:37:54 | INFO | Model | __loadModel: Model parsed
+05/21/2020, 21:37:54 | INFO | ROOM [LivingRoom] | BLIND | Created
+05/21/2020, 21:37:54 | INFO | ROOM [LivingRoom] | WINDOW [1] | __initialize: Configuration DONE
+05/21/2020, 21:37:54 | INFO | ROOM [LivingRoom] | HEATER | Created
+05/21/2020, 21:37:54 | INFO | MODULE [127.0.0.1] | Trying to connect to module
+05/21/2020, 21:37:54 | INFO | MODULE [127.0.0.1] | State has been changed to value: CONNECTED
+05/21/2020, 21:37:54 | INFO | ROOM [LivingRoom] | Room is connected to network
+05/21/2020, 21:37:54 | INFO | MODULE [127.0.0.1] | sendCommand performed successfully. Waiting for response
+05/21/2020, 21:37:54 | INFO | ROOM [LivingRoom] |  current temperature in room is: 22.0
+05/21/2020, 21:37:54 | INFO | ROOM [LivingRoom] | __initialize: Configuration DONE
+05/21/2020, 21:37:54 | INFO | HOME | __initialize: HOME is CONFIGURED
+05/21/2020, 21:37:54 | INFO | ROOM [LivingRoom] | Temperature monitor started
+05/21/2020, 21:37:54 | INFO | Model | Schedulling Energy power monitoring
+05/21/2020, 21:37:54 | INFO | MODULE [127.0.0.1] | sendCommand performed successfully. Waiting for response
+05/21/2020, 21:37:54 | INFO | Scheduller | Adding new Trigger Tauron
+05/21/2020, 21:37:54 | INFO | Scheduller | Adding new Trigger Weather
+05/21/2020, 21:37:54 | INFO | ROOM [LivingRoom] |  current temperature in room is: 22.0
+05/21/2020, 21:37:54 | INFO | Scheduller | Check trigger: Tauron
+05/21/2020, 21:38:23 | INFO | Trigger [Tauron] | json received: [{"produced":"34,8 kWh/dobę","consumed":"7,7 kWh/dobę","averageDailyConsumption":"16 kWh/dobę"}]
+
+05/21/2020, 21:38:23 | INFO | ENERGY | DUMP: {'lg': <Core.Logger.Logger object at 0x7fbf0566b6d0>, '__produced': '34,8 kWh/dobę', '__consumed': '7,7 kWh/dobę', '__averageDailyConsumption': '16 kWh/dobę'}
+05/21/2020, 21:38:23 | INFO | Trigger [Tauron] | next execution calculated to: 22/05/2020
+05/21/2020, 21:38:23 | INFO | Scheduller | Next please
+05/21/2020, 21:38:23 | INFO | Scheduller | Check trigger: Weather
+05/21/2020, 21:38:23 | INFO | Trigger [Weather] | json received: [{"description":"Przewidywane przelotne opady od: niedziela rano do: niedziela późna noc","minTemp":"2.8","maxTemp":"17.8"}]
+
+05/21/2020, 21:38:24 | INFO | WEATHER | DUMP: {'lg': <Core.Logger.Logger object at 0x7fbf0566b970>, '__description': 'Przewidywane przelotne opady od: niedziela rano do: niedziela późna noc', '__minTemp': '2.8', '__maxTemp': '17.8'}
+05/21/2020, 21:38:24 | INFO | Trigger [Weather] | next execution calculated to: 22/05/2020
+05/21/2020, 21:38:24 | INFO | Scheduller | Next please
+05/21/2020, 21:38:24 | INFO | Scheduller | Next round please
+05/21/2020, 21:38:54 | INFO | MODULE [127.0.0.1] | sendCommand performed successfully. Waiting for response
+05/21/2020, 21:38:54 | INFO | ROOM [LivingRoom] |  current temperature in room is: 22.0
+05/21/2020, 21:39:54 | INFO | MODULE [127.0.0.1] | sendCommand performed successfully. Waiting for response
+05/21/2020, 21:39:54 | INFO | ROOM [LivingRoom] |  current temperature in room is: 22.0
+05/21/2020, 21:40:24 | INFO | Scheduller | Check trigger: Tauron
+05/21/2020, 21:40:24 | INFO | Scheduller | Next please
+05/21/2020, 21:40:24 | INFO | Scheduller | Check trigger: Weather
+05/21/2020, 21:40:24 | INFO | Scheduller | Next please
+05/21/2020, 21:40:24 | INFO | Scheduller | Next round please

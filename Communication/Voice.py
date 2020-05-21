@@ -11,6 +11,7 @@ class Voice:
 	__source = None
 	__listening = False
 	__activated = False
+	__enabled = True
 
 	def __init__(self):
 		self.__filename = "output.mp3"
@@ -19,9 +20,16 @@ class Voice:
 		#	
 
 	def say(self, text):
-		tts = gTTS(text, lang='pl')
-		tts.save(self.__filename)
-		playsound.playsound(self.__filename, True)		
+		if self.__enabled:
+			tts = gTTS(text, lang='pl')
+			tts.save(self.__filename)
+			playsound.playsound(self.__filename, True)	
+
+	def getSayHandler(self):
+		return self.say
+
+	def disable(self):
+		self.__enabled = False
 
 	def startListening(self):
 		thread = threading.Thread(target=self.__listen, args=())
@@ -50,3 +58,5 @@ class Voice:
 				    self.say("Wystąpił problem: " + format(e))
 				except sr.WaitTimeoutError as e:
 					print("Timeout")
+				except e:
+					print (e)

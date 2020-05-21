@@ -1,4 +1,4 @@
-<HOME name="MM" address="Nadolice Wielkie" owner="MM" type="HOUSE">
+<HOME name="MM" address="Nadolice Wielkie" owner="Mateusz i Magda" type="HOUSE">
 	<ROOM name="LivingRoom" expectedTemp="21">
 		<WINDOW id="1">
 			<BLIND />

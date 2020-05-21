@@ -1,10 +1,11 @@
 from .Logger import *
 from .ROOM import *
 from .MEASUREMENT import *
+from .ManageObject import *
 
 STATES = ["", "UNCONFIGURED", "CONFIGURED"]
 
-class HOME:
+class HOME(ManageObject):
 
 	__address = ""
 	__name = ""
@@ -12,6 +13,7 @@ class HOME:
 	__type = 0
 	__state = STATES[0]
 	__MEASUREMENT = None
+
 
 	def __init__(self, logger, object):
 		self.__rooms = []
@@ -50,3 +52,12 @@ class HOME:
 
 	def __startMeasurement(self):
 		self.__MEASUREMENT = MEASUREMENT()
+
+	def getEnergyObject(self):
+		return self.__MEASUREMENT.getEnergyObject()
+
+	def getWeatherObject(self):
+		return self.__MEASUREMENT.getWeatherObject()
+
+	
+		

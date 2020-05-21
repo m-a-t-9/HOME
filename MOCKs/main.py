@@ -11,9 +11,10 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
         print('Connected by', addr)
         while True:
             data = conn.recv(1024)
-            print(data)
-            if data.decode().find("Hello") != -1:
-            	conn.send('Hello, MODULE is here'.encode())
-            elif data.decode().find("GET_TEMPERATURE") != -1:
-            	conn.send('22.0'.encode())
             
+            if data.decode().find("Hello") != -1:
+                conn.send('Hello, MODULE is here'.encode())
+                print(data)
+            elif data.decode().find("GET_TEMPERATURE") != -1:
+                conn.send('22.0'.encode())
+                print(data)

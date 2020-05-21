@@ -32,7 +32,7 @@ class TauronPage:
 
 	def connectToEnergyCounters(self):
 		if self.driver.title.find("eLicznik") != -1:
-			print("Nothing to be done")
+			time.sleep(1)
 		else:
 			buttonToConnect = self.driver.find_element(By.CSS_SELECTOR, self.properties[3].split(" ")[1].replace("\n", ""))
 			buttonToConnect.click()
